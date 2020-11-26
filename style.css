@@ -68,7 +68,7 @@
 }
 
 
-@media screen and (min-width:760px){/*pc*/
+@media screen and (min-width 1200px){/*pc*/
     body{
         background-color: #dd8c22;
         margin: 0,auto;
