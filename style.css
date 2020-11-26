@@ -1,23 +1,66 @@
 @media screen and (min-width:0px){
-    body{background:#fff;}
+    body{
+        background-color: #dd8c22;
+        margin: 0,auto;
+        background:url("cafe-top.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: 'Courier New', Courier, monospace;
+    }
     header{
         display: flex;
-        width: 100%;
-        height: 70px;
-        background-color: #b67d7d;
+        width: auto;
+        height: 150px;
+        align-items: center;
+        background-color: #b67d7d94;
+        border: 10px solid;
+        border-color: #ff880069;
+        border-radius: 10%;
     }
     h1.title{
+        font-size: 350%;
         margin-right: auto; 
         font-family: 'Xanh Mono', monospace;
     }
     .menu{
+        margin: auto;
         list-style: none;
         display: inline-block;
-        padding: none;
     }
     .bt1{
+        font-size: 100%;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        height: 3em;
         width: auto;
         border-radius: 10px;
+    }
+    #textpos{position: relative;width: 80%;margin: auto;}/*親ポジ*/
+    
+    .panel{
+        background: #b67d7d9d;;
+        padding: 0.5em 0em;
+        color: #f3efeb;
+        font-size: 150%;
+        text-align: center;
+        position: relative;top: 10vw;;
+    }
+    .panel2{
+        background: #b67d7dbb;;
+        position: relative;top: 40vw;;
+        color: #ebe6e6;
+        text-align: center;
+    }
+    #face{
+        background: #b67d7dbb;;
+        position: relative;top: 50vw;;
+    }
+    #lo{
+        text-align: center;
+        position: relative;top: 60vw;
+        padding: 0.5em 0em;
+        background: white;
     }
 }
 
