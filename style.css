@@ -36,7 +36,7 @@
         width: auto;
         border-radius: 10px;
     }
-    #textpos{position: relative;width: 80%;margin: auto;}/*親ポジ*/
+    #textpos{position: relative;width: 100%;margin: auto;}/*親ポジ*/
     
     .panel{
         background: #b67d7d9d;;
@@ -61,6 +61,9 @@
         position: relative;top: 60vw;
         padding: 0.5em 0em;
         background: white;
+    }
+    .pic{
+        width: 90%;
     }
 }
 
@@ -129,6 +132,9 @@
         position: relative;top: 60vw;
         padding: 0.5em 0em;
         background: white;
+    }
+    .pic{
+        width:40%;
     }
 
 }
