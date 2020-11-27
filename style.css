@@ -1,5 +1,6 @@
 @media screen and (min-width:0px){
     body{
+        text-size-adjust: 100%;
         background-color: #dd8c22;
         text-align: center;
     }
@@ -58,6 +59,7 @@
 
 @media screen and (min-width:760px){/*pc*/
     body{
+        text-size-adjust: 100%;
         background-color: #dd8c22;
         margin: 0 1;
         background:url("cafe-top.jpg");
