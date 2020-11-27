@@ -6,7 +6,7 @@
         background-size: 100%;
         background-attachment: fixed;
         background-repeat: repeat;
-        font-size: 32px;
+        font-size: 16px;
         font-family: 'Courier New', Courier, monospace;
     }
     header{
@@ -19,14 +19,14 @@
         border-radius: 10%;
     }
     h1.title{
-        font-size: 350%;
+        font-size: 400%;
         margin-right: auto; 
         font-family: 'Xanh Mono', monospace;
     }
     .menu{
         margin: auto;
         list-style: none;
-        display: inline-block;
+        display: flex;
     }
     .bt1{
         font-size: 100%;
@@ -39,22 +39,21 @@
     #textpos{position: relative;width: 100%;margin: auto;}/*親ポジ*/
     
     .panel{
-        background: #b67d7d9d;;
+        position: relative;top: 10vw;
+        background: #b67d7d9d;
         padding: 0.5em 0em;
         color: #f3efeb;
-        font-size: 100%;
-        text-align: center;
-        position: relative;top: 10vw;;
     }
     .panel2{
-        background: #b67d7dbb;;
-        position: relative;top: 40vw;;
+        background: #b67d7dbb;
+        position: relative;top: 20vw;
         color: #ebe6e6;
         text-align: center;
+        padding: 0.5em 0em;
     }
     #face{
-        background: #b67d7dbb;;
-        position: relative;top: 50vw;;
+        background: #b67d7dbb;
+        position: relative;top: 50vw;
     }
     #lo{
         text-align: center;
@@ -67,21 +66,22 @@
     }
 }
 
-
 @media screen and (min-width:760px){/*pc*/
     body{
         background-color: #dd8c22;
-        margin: 0,auto;
+        margin: 0 1;
         background:url("cafe-top.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        font-size: 16px;
         font-family: 'Courier New', Courier, monospace;
     }
     
     header{
         display: flex;
         width: auto;
+        height: 15em;
         align-items: center;
         background-color: #b67d7d94;
         border: 10px solid;
@@ -89,7 +89,7 @@
         border-radius: 10%;
     }
     h1.title{
-        font-size: 350%;
+        font-size: 100px;
         margin-right: auto; 
         font-family: 'Xanh Mono', monospace;
     }
@@ -97,6 +97,7 @@
         margin: auto;
         list-style: none;
         display: inline-block;
+        vertical-align: middle;
     }
     .bt1{
         font-size: 100%;
@@ -106,34 +107,40 @@
         height: 3em;
         border-radius: 10px;
     }
-    #textpos{position: relative;width: 80%;margin: auto;}/*親ポジ*/
+    #textpos{position: relative;width: 80%;margin: auto;font-size: 125%;}/*親ポジ*/
     
     .panel{
-        background: #b67d7d9d;;
+        position: relative;top: 10vw;
+        background: #b67d7d9d;
         padding: 0.5em 0em;
         color: #f3efeb;
-        font-size: 150%;
-        text-align: center;
-        position: relative;top: 10vw;;
+        
     }
     .panel2{
-        background: #b67d7dbb;;
-        position: relative;top: 40vw;;
+        position: relative;top: 15vw;
+        background: #b67d7dbb;
+        padding: 0.5em 0em;
         color: #ebe6e6;
-        text-align: center;
     }
+    .panel2 ul{float: left;text-align: left;align-items: center;display: block;}
+    
     #face{
-        background: #b67d7dbb;;
-        position: relative;top: 50vw;;
+        position: relative;top: 50vw;
+        background: #b67d7dbb;
     }
     #lo{
-        text-align: center;
-        position: relative;top: 60vw;
-        padding: 0.5em 0em;
+        position: relative;top: 30vw;
         background: white;
+        text-align: center;
+        padding: 0.5em 0em;
     }
     .pic{
         width:60%;
     }
 
+}
+@media screen and (min-width:1150px){
+    header{
+        height: 10em;
+    }
 }
