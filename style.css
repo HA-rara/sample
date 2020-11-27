@@ -1,13 +1,7 @@
 @media screen and (min-width:0px){
     body{
         background-color: #dd8c22;
-        margin: 0,auto;
-        background:url("cafe-top.jpg");
-        background-size: 100%;
-        background-attachment: fixed;
-        background-repeat: repeat;
-        font-size: 16px;
-        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
     }
     header{
         display: flex;
@@ -50,10 +44,6 @@
         color: #ebe6e6;
         text-align: center;
         padding: 0.5em 0em;
-    }
-    #face{
-        background: #b67d7dbb;
-        position: relative;top: 50vw;
     }
     #lo{
         text-align: center;
